@@ -48,23 +48,23 @@
 
 #### BTM
 
-- **f2pool:** nbminer -a tensority -o stratum+tcp://btm.f2pool.com:9221 -u bm1xxxxxxxxxx.worker
-- **antpool:** nbminer -a tensority -o stratum+tcp://stratum-btm.antpool.com:6666 -u username.worker
-- **matpool.io:** nbminer -a tensority -o stratum+tcp://btm.matpool.io:8118 -u bm1xxxxxxxxxxx.worker
+- **f2pool:**  -a tensority -o stratum+tcp://btm.f2pool.com:9221 -u bm1xxxxxxxxxx.worker
+- **antpool:**  -a tensority -o stratum+tcp://stratum-btm.antpool.com:6666 -u username.worker
+- **matpool.io:**  -a tensority -o stratum+tcp://btm.matpool.io:8118 -u bm1xxxxxxxxxxx.worker
 
 #### ETH
 
-- **ethermine:** nbminer -a ethash -o ethproxy+tcp://asia1.ethermine.org:4444 -u 0x12343bdgf.worker
-- **sparkpool:** nbminer -a ethash -o ethproxy+tcp://cn.sparkpool.com:3333 -u 0x12343bdgf.worker
-- **f2pool:** nbminer -a ethash -o ethproxy+tcp://eth.f2pool.com:8008 -u 0x12343bdgf.worker
-- **beepool:** nbminer -a ethash -o ethproxy+tcp://eth-pool.beepool.org:9530 -u 0x12343bdgf.worker
-- **nanopool:** nbminer -a ethash -o ethproxy+tcp://eth-asia1.nanopool.org:9999 -u 0x12343bdgf.worker
-- **herominers:** nbminer -a ethash -o ethproxy+tcp://ethereum.herominers.com:10201 -u 0x12343bdgf.worker
-- **nicehash:** nbminer -a ethash -o nicehash+tcp://daggerhashimoto.eu.nicehash.com:3353 -u btc_address.worker
+- **ethermine:**  -a ethash -o ethproxy+tcp://asia1.ethermine.org:4444 -u 0x12343bdgf.worker
+- **sparkpool:**  -a ethash -o ethproxy+tcp://cn.sparkpool.com:3333 -u 0x12343bdgf.worker
+- **f2pool:**  -a ethash -o ethproxy+tcp://eth.f2pool.com:8008 -u 0x12343bdgf.worker
+- **beepool:**  -a ethash -o ethproxy+tcp://eth-pool.beepool.org:9530 -u 0x12343bdgf.worker
+- **nanopool:**  -a ethash -o ethproxy+tcp://eth-asia1.nanopool.org:9999 -u 0x12343bdgf.worker
+- **herominers:** -a ethash -o ethproxy+tcp://ethereum.herominers.com:10201 -u 0x12343bdgf.worker
+- **nicehash:** -a ethash -o nicehash+tcp://daggerhashimoto.eu.nicehash.com:3353 -u btc_address.worker
 
 #### BTM+ETH
 
-- **f2pool:** nbminer -a tensority_ethash -o stratum+tcp://btm.f2pool.com:9221 -u btm_address.btm_worker -do ethproxy+tcp://eth.f2pool.com:8008 -du eth_address.eth_worker
+- **f2pool:** -a tensority_ethash -o stratum+tcp://btm.f2pool.com:9221 -u btm_address.btm_worker -do ethproxy+tcp://eth.f2pool.com:8008 -du eth_address.eth_worker
 
 
 #### SERO
@@ -75,22 +75,22 @@
 
 #### BFC
 
-- **uupool**: nbminer -a bfc -o stratum+tcp://bfc.uupool.cn:12210 -u username.worker
-- **bfcpool**: nbminer -a bfc -o stratum+tcp://ss.bfcpool.com:3333 -u wallet.worker
+- **uupool**:  -a bfc -o stratum+tcp://bfc.uupool.cn:12210 -u username.worker
+- **bfcpool**:  -a bfc -o stratum+tcp://ss.bfcpool.com:3333 -u wallet.worker
 
 #### HNS
 
-- **f2pool**: nbminer -a hns -o stratum+tcp://hns.f2pool.com:6000 -u wallet.worker
-- **6block**: nbminer -a hns -o stratum+tcp://handshake.6block.com:7701 -u username.worker
+- **f2pool**: -a hns -o stratum+tcp://hns.f2pool.com:6000 -u wallet.worker
+- **6block**: -a hns -o stratum+tcp://handshake.6block.com:7701 -u username.worker
 
 #### HNS+ETH:
 
-- **f2pool**: nbminer -a hns_ethash -o stratum+tcp://hns.f2pool.com:6000 -u wallet.worker -do stratum+tcp://eth.f2pool.com:8008 -du wallet.worker
+- **f2pool**: -a hns_ethash -o stratum+tcp://hns.f2pool.com:6000 -u wallet.worker -do stratum+tcp://eth.f2pool.com:8008 -du wallet.worker
 
 
 ## CMD options：
 
-**nbminer -a algo -o protocol+socket_type://pool_host:pool_port -u wallet_address.worker:passwd**
+** -a algo -o protocol+socket_type://pool_host:pool_port -u wallet_address.worker:passwd**
 
   * -h, --help    Displays this help.
   * -v, --version    Displays version information.
