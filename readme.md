@@ -4,13 +4,12 @@
 
 ![Без имени](https://user-images.githubusercontent.com/75134782/100481307-be768280-3104-11eb-8fdc-554fbf0da807.png)
 
-Miner for ETH, BTM, SERO, HNS, BFC
-
-
 ## Contact Us
 
 - Email: 
 - Discord: 
+
+## Miner for ETH, BTM, SERO, HNS, BFC
 
 ## Performance (stock frequency)
 
