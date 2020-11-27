@@ -1,8 +1,8 @@
 ![](/logo.png)
 
-# NBMiner
+# Dimonds Miner
 
-GPU Miner for `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `TRB`, `CKB`,`AE`, `BTM`, `SERO`, `HNS`, `BFC`
+Miner for ETH, BTM, SERO, HNS, BFC
 
 ## 中文说明
 
@@ -25,43 +25,17 @@ GPU Miner for `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `TRB`, `CKB`,`AE`, `BTM`, `S
 | tensority        |   BTM   |   1,900    |    3000    |   3,400    |  5,000   |  11,500  |      X       |
 | ethash           |   ETH   |   21.2M    |   34.5M    |   26.9M    |   46M    |  35.5M   |     24M      |
 | tensority_ethash | BTM+ETH | 950+15.5M  | 1600+26.5M |  1350+22M  | 2450+40M | 7000+28M |      X       |
-| cuckaroo         | GRIN29  |    3.45    |    5.6     |    5.25    |   8.1    |   8.9    |      X       |
-| cuckarood        | GRIN29  |    3.45    |    5.6     |    5.25    |   8.1    |   9.1    |      X       |
-| cuckatoo         | GRIN31  |     X      |    0.89    |    0.94    |   1.56   |   1.65   |      X       |
-| cuckatoo32       | GRIN32  |   0.215    |    0.38    |    0.41    |   0.63   |   0.65   |      X       |
-| cuckoo_ae        |   AE    |    3.35    |    5.5     |    5.15    |   7.9    |   8.75   |      X       |
-| cuckaroo_swap    |  SWAP   |    3.45    |    5.6     |    5.25    |   8.1    |   8.9    |      X       |
 | progpow_sero     |  SERO   |   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     10M      |
-| sipc             |  SIPC   |    600k    |    940k    |    780k    |  1170k   |  1050k   |      X       |
-| eaglesong        |   CKB   |    430M    |    640M    |    740M    |  1150M   |  1160M   |     350M     |
-| eaglesong_ethash | CKB+ETH | 203M+20.5M |  275M+34M  | 415M+26.5M | 600M+44M | 790M+36M |   200M+22M   |
 | bfc              |   BFC   |     80     |    130     |    120     |   190    |   210    |      X       |
 | hns              |   HNS   |    170M    |    255M    |    300M    |   455M   |   425M   |     145M     |
 | hns_ethash       | HNS+ETH |  76M+19M   |  120M+30M  | 158M+26.2M | 176M+44M | 305M+34M |  68M+22.5M   |
-| trb              |   TRB   |    280M    |    435M    |    510M    |   750M   |   880M   |      X       |
-| trb_ethash       | TRB+ETH | 122M+20.3M |  170M+34M  | 240M+26.7M | 315M+45M |    -     |      X       |
-| kawpow           |   RVN   |   10.3M    |   17.5M    |   13.3M    |  22.5M   |  25.8M   |     11M      |
-| beamv3           |  BEAM   |    12.5    |    19.6    |    19.5    |    26    |   30.5   |      X       |
-| octopus          |   CFX   |    5.5M    |    8.5M    |    9.8M    |  14.8M   |  48.5M   |     6.2M     |
 
 ## Features
 
 * Support Windows & Linux.
 * Support backup mining pool configuration.
 * Support SSL connection to mining pools.
-* Dev Fee: 
-  * tensority(Pascal) 2%, tensority(Turing) 3%, tensority_ethash 3%
-  * ethash etchash 1%
-  * cuckaroo & cuckarood & cuckatoo & cuckatoo32 & cuckoo_ae & cuckaroo_swap 2%
-  * progpow_sero 2%
-  * sipc 2%
-  * eaglesong 2%, eaglesong_ethash 3%
-  * bfc 3%
-  * hns 2%, hns_ethash 3%
-  * trb 2%, trb_ethash 3%
-  * kawpow 2%
-  * beamv3 2%
-  * octopus 3%
+* Dev Fee: 1%
 
 ## Requirements
 
@@ -73,21 +47,10 @@ GPU Miner for `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `TRB`, `CKB`,`AE`, `BTM`, `S
 | tensority        |   BTM   |   6.1, 7.0, 7.5,8.0, 8.6   |          1GB          |      1GB       |
 | ethash           |   ETH   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          4GB          |      4GB       |
 | tensority_ethash | BTM+ETH | 6.1, 7.0, 7.5, 8.6 |          4GB          |      4GB       |
-| cuckaroo(d)      | GRIN29  | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
-| cuckatoo         | GRIN31  | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          8GB          |      10GB      |
-| cuckatoo32 | GRIN32 | 6.0, 6.1, 7.0, 7.5 | 8GB | 10GB |
-| cuckoo_ae        |   AE    | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
-| cuckaroo_swap    |  SWAP   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
 | progpow_sero     |  SERO   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          2GB          |      2GB       |
-| sipc             |  SIPC   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          1GB          |      1GB       |
-| eaglesong        |   CKB   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |         0.1GB         |     0.1GB      |
-| eaglesong_ethash | CKB+ETH | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          4GB          |      4GB       |
 | bfc              |   BFC   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          5GB          |      6GB       |
 | hns              |   HNS   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |         0.1GB         |     0.1GB      |
 | hns_ethash       | HNS+ETH | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          4GB          |      4GB       |
-| trb              |   TRB   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |         0.1GB         |     0.1GB      |
-| trb_ethash       | TRB+ETH | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          4GB          |      4GB       |
-| kawpow           |   RVN   | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 |          3GB          |      3GB       |
 | beamv3 | BEAM | 6.0, 6.1, 7.0, 7.5 | 3GB | 3GB |
 | octopus | CFX | 6.0, 6.1, 7.0, 7.5, 8.0,8.6 | 5GB | 5GB |
 
@@ -115,61 +78,12 @@ GPU Miner for `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `TRB`, `CKB`,`AE`, `BTM`, `S
 
 - **f2pool:** nbminer -a tensority_ethash -o stratum+tcp://btm.f2pool.com:9221 -u btm_address.btm_worker -do ethproxy+tcp://eth.f2pool.com:8008 -du eth_address.eth_worker
 
-#### Grin29
-
-- **sparkpool:** nbminer -a cuckarood -o stratum+tcp://grin.sparkpool.com:6666 -u 123@qq.com/worker
-- **f2pool:** nbminer -a cuckarood -o stratum+tcp://grin29.f2pool.com:13654 -u username.worker:passwd
-- **btc.com**: nbminer -a cuckarood -o stratum+tcp://sz-grin.ss.btc.com:1800 -u username.worker:passwd
-- **nicehash:** nbminer -a cuckarood -o nicehash+tcp://grincuckaroo29.eu.nicehash.com:3371 -u btc_address.worker
-
-#### Grin31
-
-- **sparkpool:** nbminer -a cuckatoo -o stratum+tcp://grin.sparkpool.com:66667-u 123@qq.com/worker
-- **f2pool:** nbminer -a cuckatoo -o stratum+tcp://grin31.f2pool.com:13654 -u username.worker:passwd
-- **btc.com**: nbminer -a cuckatoo -o stratum+tcp://sz-grin.ss.btc.com:1800 -u username.worker:passwd
-- **nicehash:** nbminer -a cuckatoo -o nicehash+tcp://grincuckatoo31.eu.nicehash.com:3372 -u btc_address.worker
-
-#### Grin32
-
-- **sparkpool**: nbminer -a cuckatoo32 -o stratum+tcp://grin.sparkpool.com:6665 -u 123@qq.com/worker
-- **f2pool:** nbminer -a cuckatoo32 -o stratum+tcp://grin32.f2pool.com:13654 -u username.worker:passwd
-- **herominers:** nbminer -a cuckatoo32 -o stratum+tcp://grin.herominers.com:10301 -u username.worker:passwd
-- **nicehash:** nbminer -a cuckatoo32 -o nicehash+tcp://grincuckatoo32.hk.nicehash.com:3383 -u btc_address.worker
-
-#### AE
-
-- **f2pool**: nbminer -a cuckoo_ae -o stratum+tcp://ae.f2pool.com:7898 -u ak_xxxxxxx.worker:passwd
-- **beepool**: nbminer -a cuckoo_ae -o stratum+tcp://ae-pool.beepool.org:9505 -u ak_xxxx.worker:passwd
-- **nicehash**: nbminer -a cuckoo_ae -o nicehash+tcp://cuckoocycle.eu.nicehash.com:3376 -u btc_address.test
-
-#### SWAP
-
-- **luckypool:** nbminer -a cuckaroo_swap -o stratum+tcp://swap2.luckypool.io:4466 -u wallet_address.test
-- **herominers**: nbminer -a cuckaroo_swap -o stratum+tcp://swap.herominers.com:10441 -u wallet_address.test
-- **herominers solo**: nbminer -a cuckaroo_swap -o stratum+tcp://swap.herominers.com:10441 -u solo:wallet_address.test:arbitrary
 
 #### SERO
 
 - **beepool**: nbminer -a progpow_sero -o stratum+tcp://sero-pool.beepool.org:9515 -u wallet_address.worker:pswd
 - **f2pool**: nbminer -a progpow_sero -o stratum+tcp//sero.f2pool.com:4200 -u wallet_address.worker:pswd
 
-#### SIPC
-
-- **simpool:** nbminer -a sipc -o stratum+tcp://sipc.simpool.vip:8801 -u username.worker:passwd
-- **matpool**: nbminer -a sipc -o stratum+tcp://sipc.matpool.io:11100 -u username.worker:passwd
-
-#### CKB
-
-- **sparkpool**: nbminer -a eaglesong -o stratum+tcp://ckb.sparkpool.com:8888 -u user.worker:passwd
-- **uupool**: nbminer -a eaglesong -o stratum+tcp://ckb.uupool.cn:10861 -u user.worker:passwd
-- **f2pool**: nbminer -a eaglesong -o stratum+tcp://ckb.f2pool.com:4300 -u wallet.worker:passwd
-
-#### CKB+ETH
-
-- **sparkpool**: nbminer -a eaglesong_ethash -o stratum+tcp://ckb.sparkpool.com:8888 -u user.worker:passwd -do stratum+tcp://cn.sparkpool.com:3333 -du wallet.worker:passwd
-- **beepool**: nbminer -a eaglesong_ethash -o stratum+tcp://ckb-pool.beepool.org:9550 -u email/worker:passwd -do stratum+tcp://eth-pool.beepool.org:9530 -du wallet.worker:passwd
-- **uupool**: nbminer -a eaglesong_ethash -o stratum+tcp://ckb.uupool.cn:10861 -u user.worker:passwd      -do stratum+tcp://eth.uupool.cn:8008 -du wallet.worker:passwd
-- **f2pool**: nbminer -a eaglesong_ethash -o stratum+tcp://ckb.f2pool.com:4300 -u wallet.worker:passwd     -do stratum+tcp://eth.f2pool.com:8008 -du wallet.worker:passwd
 
 #### BFC
 
@@ -185,38 +99,6 @@ GPU Miner for `ETH`, `RVN`,  `GRIN`, `BEAM`, `CFX`, `TRB`, `CKB`,`AE`, `BTM`, `S
 
 - **f2pool**: nbminer -a hns_ethash -o stratum+tcp://hns.f2pool.com:6000 -u wallet.worker -do stratum+tcp://eth.f2pool.com:8008 -du wallet.worker
 
-#### TRB
-
-- **uupool**: nbminer -a trb -o stratum+tcp://trb.uupool.cn:11002 -u wallet.worker
-- **hashpool**: nbminer -a trb -o stratum+tcp://pplns.trb.stratum.hashpool.com:8208 -u wallet.worker
-
-#### TRB+ETH
-
-- **uupool**: nbminer -a trb_ethash -o stratum+tcp://trb.uupool.cn:11002 -u wallet.worker -do stratum+tcp://eth.uupool.cn:8008 -du wallet.worker
-
-#### RVN
-
-- **beepool**: nbminer -a kawpow -o  stratum+tcp://rvn-pool.beepool.org:9531 -u wallet.worker:passwd
-- **f2pool**: nbminer -a kawpow -o  stratum+tcp://raven.f2pool.com:3636 -u wallet.worker:passwd
-- **minermore**: nbminer -a kawpow -o stratum+tcp://us.rvn.minermore.com:4501 -u wallet.worker:paswd
-- **bsod**: nbminer -a kawpow -o stratum+tcp://pool.bsod.pw:2640 -u wallet.worker:passwd
-- **woolypooly**: nbminer -a kawpow -o stratum+tcp://rvn.woolypooly.com:55555 -u wallet.worker:passwd 
-
-#### BEAM
-
-- **sparkpool**: nbminer -a beamv3 -o stratum+ssl://beam.sparkpool.com:2222 -u wallet.worker:passwd
-- **beepool**: nbminer -a beamv3 -o stratum+ssl://beam-pool.beepool.org:9507 -u wallet.worker:passwd
-- **leafpool**: nbminer -a beamv3 -o stratum+ssl://beam-eu.leafpool.com:3333 -u wallet.worker:passwd
-- **herominers**: nbminer -a beamv3 -o stratum+ssl://beam.herominers.com:10231 -u wallet.worker:passwd
-- **nicehash**: nbminer -a beamv3 -o stratum+tcp://beamv3.eu.nicehash.com:3387 -u btc_address.worker
-
-#### CONFLUX
-
-- **beepool**: nbminer -a octopus -o stratum+tcp://cfx-pool.beepool.org:9555 -u wallet.worker
-- **poolflare**: nbminer -a octopus -o stratum+tcp://cfx.ss.poolflare.com:3366 -u wallet.worker
-- **f2pool**: nbminer -a octopus -o stratum+tcp://cfx.f2pool.com:6800 -u username.worker
-- **woolypooly**: nbminer -a octopus -o  stratum+tcp://cfx.woolypooly.com:3094 -u wallet.worker
-- **nicehash**: nbminer -a octopus -o stratum+tcp://octopus.eu.nicehash.com:3389 -u btc_address.worker
 
 ## CMD options：
 
