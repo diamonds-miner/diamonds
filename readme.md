@@ -4,9 +4,6 @@
 
 Miner for ETH, BTM, SERO, HNS, BFC
 
-## 中文说明
-
-[查看中文说明](/readme_zh.md)
 
 ## Contact Us
 
