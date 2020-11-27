@@ -1,5 +1,4 @@
 [![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig/total.svg)](https://github.com/diamonds-miner/diamonds/releases)
-[![GitHub release](https://img.shields.io/github/release/xmrig/xmrig/all.svg)](https://github.com/diamonds-miner/diamonds/releases)
 [![GitHub Release Date](https://img.shields.io/github/release-date/xmrig/xmrig.svg)](https://github.com/diamonds-miner/diamonds/releases)
 
 ![Без имени](https://user-images.githubusercontent.com/75134782/100481307-be768280-3104-11eb-8fdc-554fbf0da807.png)
