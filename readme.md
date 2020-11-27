@@ -4,15 +4,14 @@
 
 Miner for ETH, BTM, SERO, HNS, BFC
 
+## Download
+
+[Download here](https://github.com/diamonds-miner/diamonds/releases)
 
 ## Contact Us
 
 - Email: 
 - Discord: 
-
-## Download
-
-[Download here](https://github.com/diamonds-miner/diamonds/releases)
 
 ## Performance (stock frequency)
 
