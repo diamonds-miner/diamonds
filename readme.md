@@ -30,6 +30,7 @@ DiamondsMiner this is a universal software for mining cryptocurrencies. It suppo
 
 - **NVIDIA Driver version: >= 377**.
 - GPU Specific Requirements:
+
 | Algorithm        |  Coins   | Capability | Memory (Win7) | Memory (Win10) |
 | :--------------- | :-----: | :----------------: | :-------------------: | :------------: |
 | tensority        |   BTM   |   7.1, 7.2, 8.6,8.0, 8.6   |          1GB          |      1GB       |
