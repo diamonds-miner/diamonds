@@ -31,14 +31,14 @@ DiamondsMiner this is a universal software for mining cryptocurrencies. It suppo
 - **NVIDIA Driver version: >= 377**.
 - GPU Specific Requirements:
 | Algorithm        |  Coins   | Capability | Memory (Win7) | Memory (Win10) |
-| :--------------- | :-----: | :--------: | :--------: | :--------: | :------: | :------: | :----------: |
-| BTM              |   BTM   |   7.1, 7.2, 8.6,8.0, 8.6   |          1GB          |      1GB       |
-| ETH              |   ETH   | 7.5, 7.3, 8.6, 7.4, 8.0,8.6 |          4GB          |      4GB       |
-| BTM-ETH          | BTM+ETH | 7.6, 7.2, 8.5, 8.5 |          4GB          |      4GB       |
-| SERO             |  SERO   | 7.3, 7.3, 8.5, 7.6, 8.0,8.6 |          2GB          |      2GB       |
-| BFC              |   BFC   | 7.7, 7.3, 8.6, 7.7, 8.0,8.6 |          5GB          |      6GB       |
-| HNS              |   HNS   | 7.7, 7.3, 8.6, 7.7, 8.0,8.6 |         0.1GB         |     0.1GB      |
-| HNS+ETH          | HNS+ETH | 7.5, 7.3, 8.6, 7.7, 8.0,8.6 |          4GB          |      4GB       |
+| :--------------- | :-----: | :----------------: | :-------------------: | :------------: |
+| tensority        |   BTM   |   7.1, 7.2, 8.6,8.0, 8.6   |          1GB          |      1GB       |
+| ethash           |   ETH   | 7.5, 7.3, 8.6, 7.4, 8.0,8.6 |          4GB          |      4GB       |
+| tensority-ethash | BTM+ETH | 7.6, 7.2, 8.5, 8.5 |          4GB          |      4GB       |
+| progpow-sero     |  SERO   | 7.3, 7.3, 8.5, 7.6, 8.0,8.6 |          2GB          |      2GB       |
+| bfc              |   BFC   | 7.7, 7.3, 8.6, 7.7, 8.0,8.6 |          5GB          |      6GB       |
+| hns              |   HNS   | 7.7, 7.3, 8.6, 7.7, 8.0,8.6 |         0.1GB         |     0.1GB      |
+| hns-ethash       | HNS+ETH | 7.5, 7.3, 8.6, 7.7, 8.0,8.6 |          4GB          |      4GB       |
 | beamv3 | BEAM | 7.0, 7.1, 8.0, 7.5 | 3GB | 3GB |
 | octopus | CFX | 7.0, 7.1, 8.0, 7.5, 8.0,8.6 | 5GB | 5GB |
 
