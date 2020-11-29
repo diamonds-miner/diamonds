@@ -8,7 +8,6 @@ This is first multi-algorithm GPUMiner Diamonds for ETH, BTM, SERO, HNS, BFC [Wi
 DiamondsMiner this is a universal software for mining cryptocurrencies. It supports a lot of algorithms, and as a developer, I try to do my best to make it as fast and easy to use as possible.
 
 ## Performance (stock frequency)
-
 | Algorithm        |  Coin   |  P106-100  |  P104-8G   |   1070ti   |  1080ti  |   2080   | RX580 2048sp |
 | BFC              |   BFC   |    100     |    160     |    140     |   180    |   220    |      X       |
 | HNS              |   HNS   |    170M    |    270M    |    300M    |   455M   |   450M   |     155M     |
@@ -30,7 +29,6 @@ DiamondsMiner this is a universal software for mining cryptocurrencies. It suppo
 
 - **NVIDIA Driver version: >= 377**.
 - GPU Specific Requirements:
-
 | Algorithm        |  Coins   | Capability | Memory (Win7) | Memory (Win10) |
 | BTM              |   BTM   |   7.1, 7.2, 8.6,8.0, 8.6   |          1GB          |      1GB       |
 | ETH              |   ETH   | 7.5, 7.3, 8.6, 7.4, 8.0,8.6 |          4GB          |      4GB       |
