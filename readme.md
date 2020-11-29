@@ -9,6 +9,7 @@ DiamondsMiner this is a universal software for mining cryptocurrencies. It suppo
 
 ## Performance (stock frequency)
 | Algorithm        |  Coin   |  P106-100  |  P104-8G   |   1070ti   |  1080ti  |   2080   | RX580 2048sp |
+| :--------------- | :-----: | :--------: | :--------: | :--------: | :------: | :------: | :----------: |
 | BFC              |   BFC   |    100     |    160     |    140     |   180    |   220    |      X       |
 | HNS              |   HNS   |    170M    |    270M    |    300M    |   455M   |   450M   |     155M     |
 | ETH              |   ETH   |   22.5M    |   35.5M    |   27.9M    |   46M    |  35.5M   |     25M      |
@@ -30,6 +31,7 @@ DiamondsMiner this is a universal software for mining cryptocurrencies. It suppo
 - **NVIDIA Driver version: >= 377**.
 - GPU Specific Requirements:
 | Algorithm        |  Coins   | Capability | Memory (Win7) | Memory (Win10) |
+| :--------------- | :-----: | :--------: | :--------: | :--------: | :------: | :------: | :----------: |
 | BTM              |   BTM   |   7.1, 7.2, 8.6,8.0, 8.6   |          1GB          |      1GB       |
 | ETH              |   ETH   | 7.5, 7.3, 8.6, 7.4, 8.0,8.6 |          4GB          |      4GB       |
 | BTM-ETH          | BTM+ETH | 7.6, 7.2, 8.5, 8.5 |          4GB          |      4GB       |
